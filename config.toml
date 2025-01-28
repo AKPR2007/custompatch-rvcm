@@ -1,9 +1,9 @@
-enable-magisk-update = true
+enable-magisk-update = false
 
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "both"
+build-mode = "module"
 arch = "arm64-v8a"
 included-patches = "'Hide ads' 'Video ads' 'SponsorBlock' 'Remove background playback restrictions' 'Check watch history domain name resolution' 'Remove tracking query parameter' 'Force original audio' 'Remember video quality'"
 exclusive-patches = true
