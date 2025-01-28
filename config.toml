@@ -2,11 +2,13 @@ enable-magisk-update = false # set this to false if you do not want to receive u
 parallel-jobs = 1
 
 
+
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Hide ads' 'Video ads' 'Change header' 'SponsorBlock' 'Remove background playback restrictions' 'Check watch history domain name resolution' 'Remove tracking query parameter' 'Force original audio' 'Remember video quality'"
 exclusive-patches = true
 patcher-args = "-Oheader=premium*header "
+
 
 [Twitch]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
