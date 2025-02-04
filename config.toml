@@ -13,10 +13,10 @@ patcher-args = "-e 'Change header' -Oheader='premium*header' "
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 build-mode = "module"
-arch = "arm64-v8a"
+arch = "universal"
 
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 build-mode = "module"
-arch = "arm64-v8a"
+arch = "universal"
